@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+
+    <link rel="stylesheet" href="PoonamPhoto.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="myh1">Poonam Shinde</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Client Albums.html">Client Albums</a></li>
+            <li><a href="Contact.html">Contant</a></li>
+            <li><a href="Registration.html" >Registeration</a></li>
+        </ul>
+    </nav>
+
+    <br><br>
+
+    <center> <h1>Registration</h1> </center>   
+    <form>  
+        <div class="Registration">  
+        <center>  <h1>New Registeration</h1> </center>  
+        <hr>  
+        <label> Firstname </label>   
+      <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+      <label> Middlename: </label>     
+      <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+      <div>  
+      <label>   
+        Photoshoots :  
+      </label>   
+        
+      <select>  
+      <option value="Photoshoots">Photoshoots</option>  
+      <option value="Portrait">Portrait</option>  
+      <option value="Wedding">Wedding</option>  
+      <option value="Maternity">Maternity</option>  
+      <option value="New Born Baby Shoot">New Born Baby Shoot</option>  
+      <option value="Pre-Wedding">Pre-Wedding</option>  
+      <option value="Engagement">Engagement</option>  
+      </select>  
+      </div>  
+      <div>  
+      <label>   
+      Gender :  
+      </label><br>  
+      <input type="radio" value="Male" name="gender" checked > Male   
+      <input type="radio" value="Female" name="gender"> Female   
+      <input type="radio" value="Other" name="gender"> Other  
+        
+      </div>  
+      <label>   
+      Phone :  
+      </label>  
+      <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+      <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+      Current Address :  
+      <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+      </textarea>  
+       <label for="email"><b>Email</b></label>  
+       <input type="text" placeholder="Enter Email" name="email" required>  
+        
+          <label for="psw"><b>Password</b></label>  
+          <input type="password" placeholder="Enter Password" name="psw" required>  
+        
+          <label for="psw-repeat"><b>Re-type Password</b></label>  
+          <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+          <button type="submit" class="registerbtn">Register</button>
+          <button type="submit" class="loginbtn"><a href="Login.html"><u>Already Have An Account</u> Log In</a></button>    
+      </form>    
+    
+</body>
+</html>

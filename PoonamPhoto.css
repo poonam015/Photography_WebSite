@@ -1,0 +1,234 @@
+.myh1{
+    font-family: cursive;
+    font-size: 40px;
+    color:white;
+    text-shadow: 3px 3px black;
+}
+*{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+}
+
+ul{
+    margin-left:420px;
+}
+li{
+    display: inline;
+    margin:20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+form{
+    width: 500px;
+    margin:10px;
+    margin-left:800px;
+    padding:10px;
+    margin-bottom: 400px;
+    font-size: 20px;
+}
+
+p{
+    margin-left:50px;
+    display: inline;
+    background-color: white;
+    padding: 80px;
+    display: inline-block;
+    font-size:25px;
+    color: black;
+    font-family: cursive;
+}
+
+ p{
+    background-color: black;
+  }
+.Poonam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 80%;
+    max-height:80%;
+    margin-left: 90px;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+.Wedding{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Maternity{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Family{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.Commerical{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.MYH1{
+  font-family: cursive;
+  font-size: 40px;
+  color:white;
+  text-shadow: 3px 3px black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.MYH2{
+  font-family: cursive;
+  font-size: 30px;
+  color:white;
+  text-shadow: 3px 3px black;
+}
+
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: Black;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1 ;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .Login {   
+        padding: 25px;   
+        background-color: black;  
+        padding-right: 50;
+    }   
+
+
+    body{  
+      font-family: Calibri, Helvetica, sans-serif;  
+      background-color:black;  
+      align-items: center;
+    }  
+    .Registration {  
+        padding: 50px;  
+      background-color: black; 
+      align-items: center; 
+    }  
+      
+    input[type=text], input[type=password], textarea {  
+      width: 100%;  
+      padding: 15px;  
+      margin: 5px 0 22px 0;  
+      display: inline-block;  
+      border: none;  
+      background: Black;  
+    }  
+    input[type=text]:focus, input[type=password]:focus {  
+      background-color: yellow;  
+      outline: none;  
+    }  
+     div {  
+                padding: 10px 0;  
+             }  
+    hr {  
+      border: 1px solid #f1f1f1;  
+      margin-bottom: 25px;  
+    }  
+    .registerbtn {  
+      background-color: #4CAF50;  
+      color: white;  
+      padding: 16px 20px;  
+      margin: 8px 0;  
+      border: none;  
+      cursor: pointer;  
+      width: 100%;  
+      opacity: 0.9;  
+    }  
+    .registerbtn:hover {  
+      opacity: 1;  
+    } 
+    .loginbtn:hover {  
+      opacity: 1;  
+    } 
+    
+    span.a {
+      display: inline-block; 
+      width: 100px;
+      height: 100px;
+      padding: 50px;
+    }
+    
+    span.b {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      padding: 50px;
+    }
+  
